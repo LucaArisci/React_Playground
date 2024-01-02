@@ -1,12 +1,10 @@
-function GroceryItem(props) {
-  function handleClick() {
-    alert(`You have bought some ${props.item.name}`);
-  }
+import Button from "./Button";
 
+function GroceryItem(props) {
   return (
     <div className="Grocery-item">
       <img src={props.item.image} alt={props.item.alt} />
-      <button onClick={handleClick}>{props.item.name}</button>
+      <Button>{props.item}</Button>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import "./App.css";
-import GroceryItem from "./Components/GrocerYItem";
+import GroceryItem from "./Components/GroceryItem";
 
 import { itemsList } from "./ItemsList";
 
